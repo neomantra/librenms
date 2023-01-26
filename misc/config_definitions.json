@@ -4499,6 +4499,13 @@
             "default": true,
             "type": "boolean"
         },
+        "poller_modules.ucd-proc": {
+            "order": 414,
+            "group": "poller",
+            "section": "poller_modules",
+            "default": false,
+            "type": "boolean"
+        },
         "poller_modules.ipSystemStats": {
             "order": 200,
             "group": "poller",

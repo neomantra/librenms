@@ -69,6 +69,7 @@ $config['poller_modules']['storage']                     = true;
 $config['poller_modules']['netstats']                    = true;
 $config['poller_modules']['hr-mib']                      = true;
 $config['poller_modules']['ucd-mib']                     = true;
+$config['poller_modules']['ucd-proc']                    = false;
 $config['poller_modules']['ipSystemStats']               = true;
 $config['poller_modules']['ports']                       = true;
 $config['poller_modules']['nac']                         = false;
@@ -101,7 +102,6 @@ $config['poller_modules']['stp']                         = true;
 $config['poller_modules']['ntp']                         = true;
 $config['poller_modules']['services']                    = true;
 $config['poller_modules']['loadbalancers']               = false;
-$config['poller_modules']['mef']                         = false;
 $config['poller_modules']['mef']                         = false;
 ```
 
@@ -144,6 +144,8 @@ $config['os']['linux']['poller_modules']['unix-agent'] = true;
 `hr-mib`: Host resource support.
 
 `ucd-mib`: Support for CPU, Memory and Load.
+
+`ucd-proc`: Support for `prTable` Process Monitoring
 
 `ipSystemStats`: IP statistics for device.
 

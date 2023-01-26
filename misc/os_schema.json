@@ -126,6 +126,9 @@
                 "ucd-mib": {
                     "type": "boolean"
                 },
+                "ucd-proc": {
+                    "type": "boolean"
+                },
                 "ipSystemStats": {
                     "type": "boolean"
                 },
@@ -279,9 +282,6 @@
                 "vlans": {
                     "type": "boolean"
                 },
-                "ucd-diskio": {
-                    "type": "boolean"
-                },
                 "ucd-dsktable": {
                     "type": "boolean"
                 },
@@ -319,6 +319,9 @@
                     "type": "boolean"
                 },
                 "ucd-mib": {
+                    "type": "boolean"
+                },
+                "ucd-proc": {
                     "type": "boolean"
                 },
                 "ipmi": {

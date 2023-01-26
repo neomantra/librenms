@@ -1071,6 +1071,9 @@ return [
             'ucd-mib' => [
                 'description' => 'Ucd Mib',
             ],
+            'ucd-proc' => [
+                'description' => 'UCD Process',
+            ],
             'ipSystemStats' => [
                 'description' => 'ipSystemStats',
             ],
